@@ -1,5 +1,12 @@
-input("I will estimate pi. How many terms should I use? ")
-input("How many decimal places should I use in the result? ")
+
+import math 
+n = int(input("I will estimate pi. How many terms should I use? "))
+decimals = int(input("How many decimal places should I use in the result? "))
+
+pi = 4(1.0/sum([99-1.0)**k)/math.factorial(2k+1) for K in range (0,n)]))
+
+
+
 
 print("The approximate value of pi is")
 
